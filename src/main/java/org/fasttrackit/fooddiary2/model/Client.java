@@ -18,6 +18,14 @@ public class Client {
     private Long clientId;
     @Column
     private String fullName;
+   /* @Column
+    private Integer age;
+    @Column
+    private GenderEnum gender;
+    @Column
+    private Double height;
+    @Column
+    private Double weight;*/
 
     @OneToMany(mappedBy = "client")
     @JsonIgnore

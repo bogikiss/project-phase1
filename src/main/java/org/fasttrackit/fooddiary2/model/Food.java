@@ -6,7 +6,7 @@ import lombok.*;
 
 import java.util.List;
 
-@With
+/*@With
 @Builder(toBuilder = true)
 @Entity
 @NoArgsConstructor
@@ -22,5 +22,5 @@ public class Food {
     @OneToMany(mappedBy = "food")
     @JsonIgnore
     private List<FoodDiary> diaries;
-}
+}*/
 

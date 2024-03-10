@@ -17,4 +17,19 @@ public class ClientController {
     public List<Client> getAllClients() {
         return service.getAllClients();
     }
+
+    @GetMapping("{id}")
+    public Client getClientById(@PathVariable Long id) {
+        return service.getClientById(id);
+    }
+
+    @PostMapping
+    public Client addClient(@RequestBody Client newClient) {
+        return service.addNewClient(newClient);
+    }
+
+    @DeleteMapping("{id}")
+    public Client deleteById(@PathVariable Long id) {
+        return service.deleteById(id);
+    }
 }

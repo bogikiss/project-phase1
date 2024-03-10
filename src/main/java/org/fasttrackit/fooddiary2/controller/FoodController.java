@@ -1,5 +1,5 @@
 package org.fasttrackit.fooddiary2.controller;
-
+/*
 import lombok.RequiredArgsConstructor;
 import org.fasttrackit.fooddiary2.model.Food;
 import org.fasttrackit.fooddiary2.service.FoodService;
@@ -20,3 +20,4 @@ public class FoodController {
         return service.getAllFoods();
     }
 }
+*/
