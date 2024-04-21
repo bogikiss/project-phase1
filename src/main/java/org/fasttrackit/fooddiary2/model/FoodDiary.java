@@ -20,14 +20,9 @@ public class FoodDiary {
     @Column
     private String food;
 
-
-
     @ManyToOne
     @JoinColumn(name="clientId")
     private Client client;
-
-    /*@Column
-    private Date dayOfConsumption;*/
 
     @Column
     private DaysOfWeekEnum dayOfConsumption;
